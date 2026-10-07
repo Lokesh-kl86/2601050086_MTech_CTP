@@ -26,7 +26,6 @@ class Queue:
         return self.items.pop(0)
 
 
-# Browser History
 s = Stack()
 s.push("Google")
 s.push("YouTube")
@@ -35,7 +34,7 @@ print("Current page:", s.peek())
 print("Going back:", s.pop())
 print("Current page:", s.peek())
 
-# Download Queue
+
 q = Queue()
 q.enqueue("Movie.mp4")
 q.enqueue("Notes.pdf")
